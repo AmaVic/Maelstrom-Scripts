@@ -1,8 +1,8 @@
 #Table of content
-* [Presentation](https://github.com/AmaVic/Maelstrom-Scripts/tree/master/Utility#presentation)
-  * [Features](https://github.com/AmaVic/Maelstrom-Scripts/tree/master/Utility#features)
-  * [Example of utilization](https://github.com/AmaVic/Maelstrom-Scripts/tree/master/Utility#example-of-utilization)
-  * [Langugage](https://github.com/AmaVic/Maelstrom-Scripts/tree/master/Utility#language)
+* [Presentation](#presentation)
+  * [Features](#features)
+  * [Example of utilization](#example-of-utilization)
+  * [Langugage](#language)
 * [Installation](#installation)
 
 #Presentation
