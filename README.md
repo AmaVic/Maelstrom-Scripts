@@ -1,0 +1,18 @@
+#Maelstrom-Scripts
+Maelstrom was a 3.3.5 Semi-Blizzlike project with innovative content. Our idea was to add some utilities and mechanisms to the game so that it becomes
+more enjoyable, more fun and more social. We wanted players to rediscover Wrath of the Lich King with pleasure.
+
+Unfortunately, for some personal reasons we decided to stop this project. Therefore, we will give away the scripts that we already had implemented.
+
+Each directory contains one script and the instructions to add it to your own server. If you have any problem, please create a new issue (french or english only).
+If you like our scripts, please give a star to this repo !
+
+The scripts will be added progressively because they require some tweaks in order to be usable by the community.
+You can to whatever you want with those scripts, except selling them !
+If you use our scripts, we would appreciate a link towards this repo or just a note saying where it comes from !
+
+#Freelance
+If you are convinced by the quality of the scripts that we offer and that you have a specific request for a new script, you can send it to me. We are available for those specific requests on a freelance model.
+
+#Thanks
+A big thank-you to all the people who supported us for the Maelstrom project !
