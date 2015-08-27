@@ -9,8 +9,10 @@ Each directory contains one script and the instructions to add it to your own se
 If you like our scripts, please give a star to this repo !
 
 The scripts will be added progressively because they require some tweaks in order to be usable by the community.
+
 You can do whatever you want with those scripts, except selling them !
-If you use our scripts, we would appreciate a link towards this repo or just a note saying where it comes from !
+
+If you use our scripts, we would appreciate a link towards this repo or just a note saying where it comes from.
 
 #Freelance
 If you are convinced by the quality of the scripts that we offer and that you have a specific request for a new script, you can send it to me. We are available for those specific requests on a freelance model.
