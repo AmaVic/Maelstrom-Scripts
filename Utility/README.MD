@@ -42,8 +42,8 @@ The message you can send and that you have to add to the LangTextMap is a std::s
 ```c++
 Player* playerToSendTheMessageTo = ...;
 Maelstrom::Utility::LangTextMap messagesToDisplay = {
-  { Maelstrom::Utility::ENGLISH, "Hello, " + player->getName() },
-  { Maelstrom::Utility::FRENCH , "Salut, " + player->getName() }
+  { Maelstrom::Utility::ENGLISH, "Hello, " + playerToSendTheMessageTo->getName() },
+  { Maelstrom::Utility::FRENCH , "Salut, " + playerToSendTheMessageTo->getName() }
 };
 ```
 
