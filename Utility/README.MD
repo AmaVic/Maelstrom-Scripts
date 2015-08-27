@@ -1,3 +1,10 @@
+#Table of content
+* [Presentation](/#presentation)
+  * [Features](/#features)
+  * [Example of utilization](#example-of-utilization)
+  * [Langugage](#language)
+* [Installation](/#installation)
+
 #Presentation
 The Utility class offers features mainly related to messages sending/displaying in the context of a project with multiple realms with different languages for each realm.
 The idea was to give developers the ability to send gossip items, areatriggermessages, whispers, ... to the players in the language of the realm without
