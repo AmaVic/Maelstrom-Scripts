@@ -1,9 +1,9 @@
 #Table of content
-* [Presentation](/#presentation)
-  * [Features](/#features)
-  * [Example of utilization](#example-of-utilization)
-  * [Langugage](#language)
-* [Installation](/#installation)
+* [Presentation](https://github.com/AmaVic/Maelstrom-Scripts/tree/master/Utility#presentation)
+  * [Features](https://github.com/AmaVic/Maelstrom-Scripts/tree/master/Utility#features)
+  * [Example of utilization](https://github.com/AmaVic/Maelstrom-Scripts/tree/master/Utility#example-of-utilization)
+  * [Langugage](https://github.com/AmaVic/Maelstrom-Scripts/tree/master/Utility#language)
+* [Installation](#installation)
 
 #Presentation
 The Utility class offers features mainly related to messages sending/displaying in the context of a project with multiple realms with different languages for each realm.
