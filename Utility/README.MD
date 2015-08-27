@@ -53,7 +53,7 @@ The language in which messages will be sent / displayed is the one of the server
 In order for this to work properly, __the DBC language of the server must the same as the one of the client !__
 
 #Installation
- * Download Utility.h and Utility.cpp
+ * Download Utility.h and Utility.cpp (open the file in github, click on "raw", then on the page that appears with the code, right click and "save as")
  * Save both of the files in the following directory: *TrinityCore/src/server/game/Scripting*
  * Open your Visual Studio TrinityCore solution
  * Open the "game" project
