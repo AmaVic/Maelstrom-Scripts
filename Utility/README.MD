@@ -60,4 +60,6 @@ In order for this to work properly, __the DBC language of the server must the sa
  ```
  And you're good to go !
 
+ Note that the Utility class belongs with the __Maelstrom namespace__.
+
  The header file is documented so please before creating an issue to ask a question, read the doc.
