@@ -2,7 +2,7 @@
 * [Presentation](#presentation)
 * [Features](#features)
 * [Changes](#changes)
-* [Usage](#usage)
+* [How to use it](#how-to-use-it)
 * [Example](#example)
 * [Installation](#installation)
 
@@ -24,7 +24,7 @@ void OnPVPKill(Player* killer, Player* killed)
 
 Comments in the file are there to help you.
 
-##Usage
+##How to use it
 To use this in order to build your own killing streak system, just create a PlayerScript and include the *"KillstreakManager.h"* file. Once it's done, you will have access to a sKillstreakMgr object in the Maelstrom namespace.
 
 In a nutshell, you have access to the member functions of
