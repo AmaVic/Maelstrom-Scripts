@@ -31,6 +31,7 @@ With this object, you can increment player's killstreaks, get them and reset the
 The file *script_killstreak_example.cpp* is a very basic example of killing streak system that you can build with this solution. I recommend you to read it in order to understand how to use it.
 
 #Installation
+* To download a file open it in github, click on "raw", then on the page that appears with the code, right click and then choose "save as"
 * Download *KillstreakManager.h* and *KillstreakManager.cpp* and save them in _TrinityCore/src/server/game/Scripting_
 * Open your TrinityCore solution, open the "game" project
 * Click on "Header Files", add existing item and select your *KillstreakManager.h* file
