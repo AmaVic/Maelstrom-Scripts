@@ -27,7 +27,7 @@ Which is a pointer.
 
 With this object, you can increment player's killstreaks, get them and reset them.
 
-Functions that you can call to do this can throw exceptions so don't forget to call them in a try catch block.
+**Functions that you can call to do this can throw exceptions so don't forget to call them in a try catch block.**
 
 #Example
 The file *script_killstreak_example.cpp* is a very basic example of killing streak system that you can build with this solution. I recommend you to read it in order to understand how to use it.
