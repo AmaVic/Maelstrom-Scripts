@@ -1,12 +1,20 @@
-#Presentation
+##Table of content
+* [Presentation](#presentation)
+* [Features](#features)
+* [Changes](#changes)
+* [Usage](#usage)
+* [Example](#example)
+* [Installation](#installation)
+
+##Presentation
 This directory contains the implementation of a killing streak system. It is not a script that you can just add to your solution to have a killing streak system implemented. It is rather something that you can use to build your own killing streak system.
 
-#Features
+##Features
 * Increment the killstreak count for a given player
 * Reset the killstreak count for a given player
 * Get the killstreak count for a given player
 
-#Changes
+##Changes
 Currently, the system increments the killstreak count everytime a player kills another one. You might want to do some checks before doing that like the area where the players are or the difference of level between the to players...
 
 If you want to do so, you have to modify the *script_killstreak_handling.cpp* file in the function:
@@ -16,7 +24,7 @@ void OnPVPKill(Player* killer, Player* killed)
 
 Comments in the file are there to help you.
 
-#Usage
+##Usage
 To use this in order to build your own killing streak system, just create a PlayerScript and include the *"KillstreakManager.h"* file. Once it's done, you will have access to a sKillstreakMgr object in the Maelstrom namespace.
 
 In a nutshell, you have access to the member functions of
@@ -29,10 +37,10 @@ With this object, you can increment player's killstreaks, get them and reset the
 
 **Functions that you can call to do this can throw exceptions so don't forget to call them in a try catch block.**
 
-#Example
+##Example
 The file *script_killstreak_example.cpp* is a very basic example of killing streak system that you can build with this solution. I recommend you to read it in order to understand how to use it.
 
-#Installation
+##Installation
 * To download a file open it in github, click on "raw", then on the page that appears with the code, right click and then choose "save as"
 * Download *KillstreakManager.h* and *KillstreakManager.cpp* and save them in _TrinityCore/src/server/game/Scripting_
 * Open your TrinityCore solution, open the "game" project
