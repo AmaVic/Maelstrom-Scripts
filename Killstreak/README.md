@@ -5,6 +5,7 @@
 * [How to use it](#how-to-use-it)
 * [Example](#example)
 * [Installation](#installation)
+* [Thanks](#thanks)
 
 ##Presentation
 This directory contains the implementation of a killing streak system. It is not a script that you can just add to your solution to have a killing streak system implemented. It is rather something that you can use to build your own killing streak system.
@@ -17,9 +18,9 @@ This directory contains the implementation of a killing streak system. It is not
 ##Changes
 Currently, the system increments the killstreak count everytime a player kills another one. You might want to do some checks before doing that like the area where the players are or the difference of level between the to players...
 
-If you want to do so, you have to modify the *script_killstreak_handling.cpp* file in the function:
+If you want to do so, you have to modify the *KillstreakManager.cpp* file in the function:
 ```c++
-void OnPVPKill(Player* killer, Player* killed)
+void HandlePvPKill(Player* killer, Player* killed)
 ```
 
 Comments in the file are there to help you.
@@ -36,6 +37,8 @@ Which is a pointer.
 With this object, you can increment player's killstreaks, get them and reset them.
 
 **Functions that you can call to do this can throw exceptions so don't forget to call them in a try catch block.**
+
+When you override the void OnPVPKill(Player* killer, Player* killed) function of PlayerScript, __you have to call Maelstrom::sKillstreakMgr->HandlePvPKill(killer, killed) as first instruction__. It won't work if you don't.
 
 ##Example
 The file *script_killstreak_example.cpp* is a very basic example of killing streak system that you can build with this solution. I recommend you to read it in order to understand how to use it.
@@ -55,3 +58,6 @@ The file *script_killstreak_example.cpp* is a very basic example of killing stre
 [Optional]: If you want to add the example script to your solution, download the *script_killstreak_example.cpp* file and add it as an usual script.
 
 The function to add in your ScriptLoader.cpp file is void AddSC_script_killstreak_example().
+
+#Thanks
+I would like to thank Rochet2 for his constructive comments about this script. Make sure you check out [his repo]("http://rochet2.github.io/"), he does amazing things !
