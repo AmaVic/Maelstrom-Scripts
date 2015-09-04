@@ -13,6 +13,9 @@ public:
 	// Overriding script functions ===================================================================================================================================
 	void OnPVPKill(Player* killer, Player* killed) {
 		try {
+			//ALWAYS CALL THIS FUNCTTION FIRST
+			Maelstrom::sKillstreakMgr->HandlePvPKill(killer, killed);
+
 			//We say to the killed that its killstreak has been reset
 			killed->GetSession()->SendAreaTriggerMessage("Killstreak reset :(");
 
