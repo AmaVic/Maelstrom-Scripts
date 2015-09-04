@@ -60,4 +60,4 @@ The file *script_killstreak_example.cpp* is a very basic example of killing stre
 The function to add in your ScriptLoader.cpp file is void AddSC_script_killstreak_example().
 
 #Thanks
-I would like to thank Rochet2 for his constructive comments about this script. Make sure you check out [his repo]("http://rochet2.github.io/"), he does amazing things !
+I would like to thank Rochet2 for his constructive comments about this script. Make sure you check out [his repo](http://rochet2.github.io/), he does amazing things !
