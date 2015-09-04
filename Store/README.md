@@ -8,6 +8,7 @@
 
 #Presentation
 This is a store script that you can put on a NPC. In the store, you can add several items and set them in categories. When you open the NPC's gossip menu, you will see all the available categories and the coins that you have on your account. When you click on a category, you will see all items that belongs to it on the following form:
+
 [price] ItemName (x quantity)
 
 * Price is the amount of coins required to purchase the item
