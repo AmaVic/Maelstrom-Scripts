@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <exception>
+#include <mutex>
 
 #include "Player.h"
 
@@ -25,7 +26,7 @@ namespace Maelstrom {
 		// Where KILLSTREAKS stores the player's killstreaks
 		// For instance, KILLSTREAKS[10] represents the killstreak of the player who has 10 as GUID
 		//
-		// Mutable type
+		// Mutable types
 
 	public:
 
@@ -74,6 +75,14 @@ namespace Maelstrom {
 		//MODIFIES: /
 		//EFFECTS: if player == nullptr, a NullPointerException is thrown
 		//         otherwise returns this.KILLSTREAKS[guid of "player"]
+
+		void HandlePvPKill(Player* killer, Player* killed);
+		//REQUIRES: killer != killed && killer != nullptr && killed != nullptr
+		//MODIFIES: this.KILLSTREAKS
+		//EFFECTS:  if killer == nullptr || killed == nullptr, a NullPointerException is thrown
+		//			if killer == killed: reset the killer(and killed, which are the same) killstreaks
+		//          Otherwhise, this_post.KILLSTREAKS[guid of "killer"] = this.KILLSTREAKS[guid of "killer"]+1 AND this_post.KILLSTREAKS[guid of "killed"] = 0
+
 		//=========================================================================================================================================================
 
 		// Private member functions ===============================================================================================================================
@@ -94,6 +103,7 @@ namespace Maelstrom {
 
 		// Rep ====================================================================================================================================================
 		std::unordered_map<ObjectGuid, uint64> mKillstreakMap;
+		std::mutex mMutex;
 		//=========================================================================================================================================================
 
 	};
