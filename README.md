@@ -14,8 +14,5 @@ You can do whatever you want with those scripts, except selling them !
 
 If you use our scripts, we would appreciate a link towards this repo or just a note saying where it comes from.
 
-#Freelance
-If you are convinced by the quality of the scripts that we offer and that you have a specific request for a new script, you can send it to me. We are available for those specific requests on a freelance model.
-
 #Thanks
 A big thank-you to all the people who supported us for the Maelstrom project !
