@@ -24,7 +24,7 @@ If you want to send a message to a player or add a gossip item, here is how you 
 Player* playerToSendTheMessageTo = ...;
 Maelstrom::Utility::LangTextMap messagesToDisplay = {
   { Maelstrom::Utility::ENGLISH, "Hello ! Have a nice day on Maelstrom !"          },
-  { Maelstrom::Utility::FRENCH , "Salut ! Passes une bonne journée sur Maelstrom !"}
+  { Maelstrom::Utility::FRENCH , "Salut ! Passe une bonne journée sur Maelstrom !"}
 };
 
 //Areatriggermessage
