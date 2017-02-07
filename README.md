@@ -16,3 +16,6 @@ If you use our scripts, we would appreciate a link towards this repo or just a n
 
 #Thanks
 A big thank-you to all the people who supported us for the Maelstrom project !
+
+#Other Repo - Elegon World
+Before working on Maelstrom, we had a bigger project called Elegon World. A bunch of interesting scripts were also implemented on that server, and the complete sources of that server are available on a [dedicated repository](https://github.com/AmaVic/ElegonWorld).
