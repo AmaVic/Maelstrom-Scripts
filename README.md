@@ -1,4 +1,5 @@
-#Maelstrom-Scripts
+Maelstrom-Scripts
+=================
 Maelstrom was a 3.3.5 Semi-Blizzlike project with innovative content. Our idea was to add some utilities and mechanisms to the game so that it becomes
 more enjoyable, more fun and more social. We wanted players to rediscover Wrath of the Lich King with pleasure.
 
@@ -14,8 +15,10 @@ You can do whatever you want with those scripts, except selling them !
 
 If you use our scripts, we would appreciate a link towards this repo or just a note saying where it comes from.
 
-#Thanks
+Thanks
+======
 A big thank-you to all the people who supported us for the Maelstrom project !
 
-#Other Repo - Elegon World
+Other Repo - Elegon World
+=========================
 Before working on Maelstrom, we had a bigger project called Elegon World. A bunch of interesting scripts were also implemented on that server, and the complete sources of that server are available on a [dedicated repository](https://github.com/AmaVic/ElegonWorld).
