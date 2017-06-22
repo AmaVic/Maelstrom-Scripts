@@ -1,22 +1,22 @@
-#Table of content
+# Table of contents
 * [Presentation](#presentation)
   * [Features](#features)
   * [Example of utilization](#example-of-utilization)
-  * [Langugage](#language)
+  * [Language](#language)
 * [Installation](#installation)
 
-#Presentation
+# Presentation
 The Utility class offers features mainly related to messages sending/displaying in the context of a project with multiple realms with different languages for each realm.
 The idea was to give developers the ability to send gossip items, areatriggermessages, whispers, ... to the players in the language of the realm without
 having different versions of their server code for their different realms and without using the database.
 
-##Features
+## Features
 * Send a message to a player, in the realm language
 * Send an areatrigger message to a player, in the realm language
 * Get the name of an area, in the realm language
 * Add a gossip (extended) item, in the realm language
 
-##Example of utilization
+## Example of utilization
 Let's say you have two realms, one in English and the other in French.
 If you want to send a message to a player or add a gossip item, here is how you can do it with our Utility class:
 
@@ -47,12 +47,12 @@ Maelstrom::Utility::LangTextMap messagesToDisplay = {
 };
 ```
 
-##Language
+## Language
 The language in which messages will be sent / displayed is the one of the server's DBC directory.
 
 In order for this to work properly, __the DBC language of the server must the same as the one of the client !__
 
-#Installation
+# Installation
  * Download Utility.h and Utility.cpp (open the file in github, click on "raw", then on the page that appears with the code, right click and "save as")
  * Save both of the files in the following directory: *TrinityCore/src/server/game/Scripting*
  * Open your Visual Studio TrinityCore solution
